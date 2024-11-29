@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from './Component/Navbar';
 import Home from './Component/Home';
 import Intership from './Component/Intership';
+import Skills from './Component/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
    <Navbar/>
    <Home />
     <Intership/>
+    <Skills/>
     </>
     
   )

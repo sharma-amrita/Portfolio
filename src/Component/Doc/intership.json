@@ -1,27 +1,28 @@
 [
+    
     {
-    "id": 1,
-    "role": "Front-End Intern",
-    "organisation": "Cairo Vision Pvt.Ltd",
-    "startDate": "june, 2023",
-    "endDate": "Aug,2023",
-    "location": "Bengluru,India",
-    "experiences": [
-          "Worked on building websites "
-        ],
-        "imageSrc": "company/microsoft.png"
-    },
-    {
-        "id": 2,
+        "id": 1,
         "role": "Web Designer",
         "organisation": "Pearl Organisation",
         "startDate": "March, 2024",
-        "endDate": "Aprl, 2024",
+        "endDate": "April, 2024",
         "location": "Dehradun,India",
         "experiences": [
-          "Worked on building websites using WordPress and Shopify"
-        ],
-        "imageSrc": "company/microsoft.png"
-      }
+          "Worked on building websites using WordPress and Shopify",
+          "Worked on building websites using WordPress "
+        ]
+      },
+      {
+        "id": 2,
+        "role": "Front-End Intern",
+        "organisation": "Cairo Vision Pvt.Ltd",
+        "startDate": "June, 2023",
+        "endDate": "Aug,2023",
+        "location": "Bengluru,India",
+        "experiences": [
+              "Worked on building websites ",
+              "Debugged and optimized Front-End performance"
+            ]
+        }
 
 ]

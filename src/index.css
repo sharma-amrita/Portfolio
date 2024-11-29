@@ -1,6 +1,6 @@
 :root{
   --box-shadow:5px 5px 10px 6px rgba(101,175,10,0.5);
-  --bg-color:rgb(40,47,97);
+  --bg-color:rgb(49, 59, 123);
 }
 
 
@@ -8,6 +8,7 @@
 body{
   background-color: rgb(15, 5, 57);
   color: azure;
+  margin-left: 15 px;
 }
 
 a{
@@ -42,7 +43,7 @@ a{
 }
 
 .home .left{
-  /* background: red; */
+  background: var(--bg-color);
   height: 125px;
   width: 500px;
   border: 1px solid yellow;
@@ -105,3 +106,43 @@ a{
     box-shadow: 10px 10px 100px 50px rgb(50,55,205);
   }
 }
+
+
+/*Intership Section*/
+
+
+ .heading{
+  height:45px;
+  width:300px;
+  /* border:1px solid green; */
+  text-align: center;
+  margin-left: 120px;
+}
+.heading:hover{
+  border-bottom: 3px solid rgb(213, 230, 19);
+}
+
+
+.container1{
+  /* background: var(--bg-color); */
+  height: 500px;
+  width: 800px;
+  margin-left:400px;
+  
+  /* border: 1px solid green; */
+}
+.experience-item{
+   background: var(--bg-color);
+   border: 2px solid yellow;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  border-radius: 25px;
+  box-shadow: var(--box-shadow);
+  margin: 40px;
+}
+
+
+/* SKills Section*/
+
+
+
