@@ -19,13 +19,23 @@ function Intership() {
         {experiences.map((experience) => (
           <div key={experience.id} className="experience-item">
             <h4>{experience.role} at {experience.organisation}</h4>
-            <p >  </p>
-            <p ><span style={{color:'rgb(0,250,10)' }}>{experience.startDate} - {experience.endDate} | </span> <span style={{color:'yellow'}}> {experience.location}</span></p>
-            {/* <p><strong>Location:</strong> {experience.location}</p> */}
-            {/* <h6>Experiences:</h6> */}
+            
+            <p>
+                  {experience.startDate && experience.endDate ? (
+                    <span style={{ color: 'rgb(0,250,10)' }}>
+                      {experience.startDate} - {experience.endDate} |
+                    </span>
+                  ) : null}
+                  {experience.location && (
+                    <span style={{ color: 'yellow' }}>
+                      {experience.location}
+                    </span>
+                  )}
+            </p>
+            
            
               {experience.experiences.map((exp, index) => (
-               <p style={{color:'yellow'}}> <p key={index}>{exp}</p> </p> 
+               <p style={{color:'yellow'}}> <strong key={index}>{exp}</strong> </p> 
               ))}
            
           </div>

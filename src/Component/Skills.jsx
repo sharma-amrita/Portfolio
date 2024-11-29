@@ -1,23 +1,17 @@
 import React from 'react';
-import skillsData from './Doc/skills.json'
+import skills from './Doc/skills.json';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
-      <h2>My Skills</h2>
-      <div className="skills-grid">
-        {skillsData.map((skill, index) => (
-          <div className="skill-card" key={index}>
-            <img 
-              src={require(`./path-to-images/${skill.imageSrc}`)} 
-              alt={`${skill.title} logo`} 
-              className="skill-image" 
-            />
-            <h3>{skill.title}</h3>
+    <div className="container skills">
+      <h4>SKILLS</h4>
+      {skills.map((doc, index) => (
+        <div className="items" key={index}> {/* Ensure unique key */}
+          <div className="item">
+            <img src={`/assets/${doc.imageSrc}`} alt={doc.title} />
           </div>
-        ))}
-      </div>
-    </div>
+        </div>
+      ))} </div>
   );
 };
 
