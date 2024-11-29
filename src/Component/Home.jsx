@@ -13,18 +13,12 @@ const Home = () => {
 
       <div className="right">
         <div className="img">
-
-      
-        < img src={hero} alt="Photo"/>
+        < img src={`/assets/${hero.imgSrc}`} alt="Photo"/>
         </div>
       </div>
     </div>
-
-    
-    
-    
     </>
   )
 }
 
-export default Home
+export default Home;
