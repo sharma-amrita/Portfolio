@@ -4,8 +4,7 @@ import React from 'react'
 import Navbar from './Component/Navbar';
 import Home from './Component/Home';
 import Intership from './Component/Intership';
-// import Skills from './Component/Skills';
-import Project from './Component/Projects';
+import Skills from './Component/Skills';
 import Projects from './Component/Projects';
 
 function App() {
@@ -14,7 +13,8 @@ function App() {
    <Navbar/>
    <Home />
    <Intership/>
-    <Projects/>
+   <Skills/>
+   <Projects/>
     </>  
     )
 }
