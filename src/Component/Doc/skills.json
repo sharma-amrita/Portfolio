@@ -4,7 +4,7 @@
     "imageSrc": "/Assets/skills/java.png"
   },
   {
-    "title": "C",
+    "title": "C Programming",
     "imageSrc": "/Assets/skills/c.png"
   },
   {
@@ -20,13 +20,14 @@
     "imageSrc": "/Assets/skills/js.png"
   },
   {
-    "title": "React.js",
-    "imageSrc": "/Assets/skills/react.png"
-  },
-  {
     "title": "MySQL",
     "imageSrc": "/Assets/skills/mysql.png"
   },
+  {
+    "title": "React.js",
+    "imageSrc": "/Assets/skills/react.png"
+  },
+ 
   {
     "title": "WordPress",
     "imageSrc": "/Assets/skills/wordpress.png"

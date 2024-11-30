@@ -145,23 +145,32 @@ a{
 /* SKills Section*/
 
 .skills{
-  width: 1400px;
-  background: red;
+  width: 900px;
+  /* background: red; */
 }
 
-.skills .item{
+.skills .items{
   display: flex;
-   justify-content:center; 
- align-items: center;
+  justify-content:center; 
+  align-items: center;
   flex-wrap: wrap;
+  
+  margin: auto;
+  /* background: yellow; */
 }
 
-.skills .item .item {
-width: cal(33.33%);
+.skills .items .item {
+width: calc(33.33%);
+background: black;
+margin:10px;
+text-align: center;
+padding: 25px;
+border-radius: 10px;
 }
 
-.skills .item .item img{
-  width: 40px;
+.skills .items .item img{
+  width: 70px;
+  
 
 }
 
