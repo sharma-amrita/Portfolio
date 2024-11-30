@@ -7,7 +7,7 @@ import Intership from './Component/Intership';
 import Skills from './Component/Skills';
 import Projects from './Component/Projects';
 import Certificate from './Component/certificate';
-
+import Contact from './Component/Contact'
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
    <Skills/>
    <Projects/>
    <Certificate/>
+   <Contact/>
 
     </>  
     )

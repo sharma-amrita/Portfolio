@@ -44,7 +44,7 @@ a{
 
 .home .left{
   background: var(--bg-color);
-  height: 125px;
+  height: 140px;
   width: 500px;
   border: 1px solid yellow;
   text-align: center;
@@ -185,6 +185,29 @@ box-shadow: var(--box-shadow);
 
 
 
-  /*PROJECT SECTION */
+  /*CONTACT SECTION*/
+.contact-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
-  
+.contact-icon .items{
+  background: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid yellow;
+}
+.contact-icon .items:hover{
+background: var(--bg-color);
+box-shadow: var(--box-shadow);
+}
+
+.contact-icon .items .icons{
+  font-size: 2rem;
+}

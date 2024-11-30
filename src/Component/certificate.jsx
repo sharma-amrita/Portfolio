@@ -1,7 +1,3 @@
-
-
-
-
 import React from "react";
 import Certificates from "./Doc/Certificate.json";
 
