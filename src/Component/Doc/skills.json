@@ -1,14 +1,36 @@
 [
   {
     "title": "Java",
-    "imageSrc": "java.png"
+    "imageSrc": "/Assets/skills/java.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "/Assets/skills/c.png"
   },
   {
     "title": "HTML",
-    "imageSrc": "html.png"
- 
+    "imageSrc": "/Assets/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/Assets/skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "/Assets/skills/js.png"
+  },
+  {
+    "title": "React.js",
+    "imageSrc": "/Assets/skills/react.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "/Assets/skills/mysql.png"
+  },
+  {
+    "title": "WordPress",
+    "imageSrc": "/Assets/skills/wordpress.png"
   }
-
 ]
 
 

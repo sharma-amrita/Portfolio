@@ -9,7 +9,7 @@ const Skills = () => {
         <>
           <div className="item" key={Doc.id}>
             <div className="item">
-            < img src={skills.imageSrc} alt="Photo_skill"/>
+            < img src={Doc.imageSrc} alt="Photo_skill"/>
               <h3>{Doc.title}</h3>
             </div>           
           </div>        
