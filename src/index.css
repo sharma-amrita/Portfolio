@@ -144,5 +144,24 @@ a{
 
 /* SKills Section*/
 
+.skills{
+  width: 1400px;
+  background: red;
+}
 
+.skills .item{
+  display: flex;
+   justify-content:center; 
+ align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills .item .item {
+width: cal(33.33%);
+}
+
+.skills .item .item img{
+  width: 40px;
+
+}
 

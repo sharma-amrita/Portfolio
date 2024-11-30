@@ -16,7 +16,7 @@ function App() {
    <Intership/>
    <Skills/>
    <Projects/>
-   {/* <Certificate/> */}
+  
     </>  
     )
 }

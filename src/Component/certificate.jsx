@@ -1,5 +1,5 @@
 import  React from 'react';
-import  React from './pdf/academic';
+
 
  
  const Certificate = () => {

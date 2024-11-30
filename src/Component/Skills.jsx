@@ -5,17 +5,18 @@ const Skills = () => {
   return (
     <div className="container skills">
       <h4>SKILLS</h4>
+      <div className="item">
       {skills.map((Doc) =>(
         <>
-          <div className="item" key={Doc.id}>
-            <div className="item">
-            < img src={Doc.imageSrc} alt="Photo_skill"/>
-              <h3>{Doc.title}</h3>
-            </div>           
-          </div>        
+          
+            <div className="item" key={Doc.id}>
+              < img src={Doc.imageSrc} alt=""/>
+              <h6>{Doc.title}</h6>
+            </div>                 
         </>
-      ))} 
-      </div>
+          ))}
+        </div>     
+    </div>
   );
 };
 
