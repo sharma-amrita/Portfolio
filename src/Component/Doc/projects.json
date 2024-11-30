@@ -5,7 +5,7 @@
     "imageSrc": "/Assets/project/chatbot.jpg",
     "description": "This is a project made with complete py,html,js,css.",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/sharma-amrita/Music-Recommendation_chatbot"
   },
   {
     "key": 2,
@@ -13,7 +13,7 @@
     "imageSrc": "/Assets/project/javaterminal.jpg",
     "description": "This is a project made with complete Java",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/sharma-amrita/Java-Terminal-From-scratch"
   },
   {
     "key": 3,

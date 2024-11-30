@@ -145,9 +145,18 @@ a{
 /* SKills Section*/
 
 h4.topic{
- padding-left: 30px;
+  align-items: center;
+  margin-left: 20px;
+  height:45px;
+  width:80px;
+  /* border:1px solid green; */
+  text-align: center;
 }
 
+h4.topic:hover{
+  border-bottom: 3px solid rgb(213, 230, 19);
+  
+}
 
 
 .skills .items{
@@ -172,8 +181,10 @@ box-shadow: var(--box-shadow);
 }
 
 .skills .items .item img{
-  width: 70px;
+  width: 70px;}
+
+
+
+  /*PROJECT SECTION */
+
   
-
-}
-
