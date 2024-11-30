@@ -1,36 +1,12 @@
 [
   {
     "title": "Java",
-    "imageSrc": "java.png" 
+    "imageSrc": "java.png"
   },
-  {
-    "title": "C Programming",
-    "imageSrc": "c.png"
-  },
-
   {
     "title": "HTML",
     "imageSrc": "html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "css.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "javascript.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "react.png"
-  },
-  {
-    "title": "WordPress",
-    "imageSrc": "wordpress.png"
-  },
-  {
-    "title": "MySQL",
-    "imageSrc": "mysql.png"
+ 
   }
 
 ]

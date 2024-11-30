@@ -1,6 +1,6 @@
-import React from 'react'
-import pdf from './pdf/AmritaSharma.pdf'
-import hero from '../Assets/hero/image.jpg'
+import React from 'react';
+import pdf from './pdf/AmritaSharma.pdf';
+import hero from './Doc/hero.json';
 
 const Home = () => {
   return (
