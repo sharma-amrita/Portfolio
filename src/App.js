@@ -6,6 +6,7 @@ import Home from './Component/Home';
 import Intership from './Component/Intership';
 import Skills from './Component/Skills';
 import Projects from './Component/Projects';
+import certificate from './Component/certificate';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
    <Intership/>
    <Skills/>
    <Projects/>
+   <certificate/>
     </>  
     )
 }
