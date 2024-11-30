@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import pdf from './Resume_download_pdf/AmritaSharma.pdf';
 import hero from './Doc/hero.json';
 import Typed from 'typed.js';
-import { PiFileRsThin } from 'react-icons/pi';
-import { ImLoop } from 'react-icons/im';
+
 
 const Home = () => {
   const typedRef = useRef( null)
@@ -17,7 +16,7 @@ const Home = () => {
 
    const typed = new Typed(typedRef.current, options)
     return() => {
-      
+      typed.destroy();
     }
   
   },[])
@@ -25,8 +24,8 @@ const Home = () => {
     <>
     <div className="container home">
       <div className="left">
-         <h3 ref={typedRef}></h3>
-          <a href={"pdf/AmritaSharma"} download='Amrita_Resume.pdf' className="btn btn-outline-warning my-4">Download Resume</a>
+         <h3 ref={typedRef}>hello</h3>
+          <a href={pdf} download='Amrita_Resume.pdf' className="btn btn-outline-warning my-4">Download Resume</a>
       </div>
 
       <div className="right">
