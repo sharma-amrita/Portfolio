@@ -6,6 +6,7 @@ import Home from './Component/Home';
 import Intership from './Component/Intership';
 import Skills from './Component/Skills';
 import Projects from './Component/Projects';
+import Certificate from './Component/certificate';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
    <Intership/>
    <Skills/>
    <Projects/>
-   {/* <Certificate/> */}
+   <Certificate/>
     </>  
     )
 }

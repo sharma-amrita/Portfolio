@@ -12,6 +12,7 @@ const Navbar = () => {
             <a href="" className="nav_item">Intership</a>
             <a href="" className="nav_item">Skills</a>
             <a href="" className="nav_item">Project</a>
+            <a href="" className="nav_item">Ceritificate</a>
             <a href="" className="nav_item">Contact</a>
 
         </div>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Certificate Title 1",
+    "imageSrc": "/Assets/skills/react.png",
+    "documentLink": "/pdf/academic.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Certificate Title 2",
+    "imageSrc": "/Assets/skills/react.png",
+    "documentLink": "/pdf/academic.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Certificate Title 3",
+    "imageSrc": "/Assets/skills/react.png",
+    "documentLink": "/pdf/academic.pdf"
+  }
+]
