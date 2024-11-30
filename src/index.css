@@ -144,28 +144,31 @@ a{
 
 /* SKills Section*/
 
-.skills{
-  width: 900px;
-  /* background: red; */
+h4.topic{
+ padding-left: 30px;
 }
 
+
+
 .skills .items{
+  width: 800px;
   display: flex;
   justify-content:center; 
   align-items: center;
   flex-wrap: wrap;
-  
-  margin: auto;
+  margin-left: 22%;
   /* background: yellow; */
 }
 
 .skills .items .item {
-width: calc(33.33%);
+width: calc(22.22%);
 background: black;
-margin:10px;
+margin:30px;
 text-align: center;
 padding: 25px;
 border-radius: 10px;
+border: 1px solid yellow;
+box-shadow: var(--box-shadow);
 }
 
 .skills .items .item img{

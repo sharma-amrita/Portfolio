@@ -7,6 +7,11 @@
     "title": "C Programming",
     "imageSrc": "/Assets/skills/c.png"
   },
+  
+  {
+    "title": "MySQL",
+    "imageSrc": "/Assets/skills/mysql.png"
+  },
   {
     "title": "HTML",
     "imageSrc": "/Assets/skills/html.png"
@@ -18,10 +23,6 @@
   {
     "title": "JavaScript",
     "imageSrc": "/Assets/skills/js.png"
-  },
-  {
-    "title": "MySQL",
-    "imageSrc": "/Assets/skills/mysql.png"
   },
   {
     "title": "React.js",

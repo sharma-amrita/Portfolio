@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './Resume_download_pdf/AmritaSharma.pdf';
+import pdf from '/pdf/AmritaSharma.pdf';
 import hero from './Doc/hero.json';
 
 const Home = () => {
