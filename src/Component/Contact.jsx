@@ -11,8 +11,7 @@ const Contact = () => {
     <div className="container contact" id='contact'>
       <h4>CONTACT ME</h4>
       <div className="contact-icon"
-         data-aos = "zoom-in"
-          data-aos-duration = "1000"
+       
       >
       <a href='https://www.linkedin.com/in/sharma-amrita/' className="items"><FaLinkedin className='icons'/></a>
       <a href='https://github.com/sharma-amrita' className="items"><FaGithub className='icons'/></a>

@@ -4,7 +4,7 @@ import Certificates from "./Doc/Certificate.json";
 
 const Certificate = () => {
   return (
-    <div className="container certificate">
+    <div className="container certificate" id='certificate'>
       <h3>Certificates/Awards</h3>
       {Certificates.map((certi, index) => (
         <div className="item" key={certi.id}>
