@@ -19,8 +19,9 @@
     "key": 3,
     "title": "Darshan-Trade-International ",
     "imageSrc": "/Assets/project/website.png" ,
-    "description": "This is a project made with complete React js."
-   
+    "description": "This is a project made with complete React js.",
+    "demo": "https://drashantradeinternational.netlify.app/",
+    "source": "https://github.com/sharma-amrita/Darshan-Trade-International"
   }
  
 ]

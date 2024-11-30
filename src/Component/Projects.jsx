@@ -34,6 +34,22 @@ const Projects = () => {
                     <a href={Doc.source} className="btn btn-primary" target="_blank">
                       View
                     </a>
+                    {Doc.key === 3 && (
+                    <a
+                    style={
+                      {
+                        color:'white',
+                        backgroundColor:'#FFC72C'
+                      }
+                    }
+                      href={Doc.demo} 
+                      className="btn btn-secondary mx-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Demo
+                    </a>
+                  )}
                   </div>
                 </div>
               </div>
