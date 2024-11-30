@@ -5,12 +5,12 @@ import projects from './Doc/projects.json';
 const Projects = () => {
   return (
    <>
-         <div classNameName='container projects my-3'>
+         <div className='container projects my-3' id='projects'>
               <h4 >PROJECT</h4>
-              <div classNameName="row">
+              <div className="row">
                 {projects.map((Doc)=>(
                     <>
-                    <div key={projects.id} className="my-4 col-md-4">
+                    <div key={projects.id} className="my-4 col-md-4 col-lg-4">
                     <div className="card bg-dark text-light" style={{width:'18rem'}}>
                                 <img src={Doc.imageSrc} className="card-img-top" alt=".."/>
                                 <div className="card-body text-center">

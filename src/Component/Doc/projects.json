@@ -1,7 +1,7 @@
 [
   {
     "key": 1,
-    "title": "Music-Recommendation_chatbot ",
+    "title":"Music-Recommendation_chatbot",
     "imageSrc": "/Assets/project/chatbot.jpg",
     "description": "This is a project made with complete py,html,js,css.",
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
   },
   {
     "key": 2,
-    "title": "Java-Terminal-From-scratch",
+    "title": "Java_Terminal_From_Scratch",
     "imageSrc": "/Assets/project/javaterminal.jpg",
     "description": "This is a project made with complete Java",
     "demo": "https://www.example.com",
