@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "Certificate Of Merit",
-    "imageSrc": "/Assets/certificate/merit.png",
-    "documentLink": "/pdf/academic.pdf"
-  },
-  {
-    "id": 2,
     "title": "Front-End Development",
     "imageSrc": "/Assets/certificate/Front-End Development.png",
     "documentLink": "/pdf/certificate.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Certificate Of Merit",
+    "imageSrc": "/Assets/certificate/merit.png",
+    "documentLink": "/pdf/academic.pdf"
   },
   {
     "id": 3,

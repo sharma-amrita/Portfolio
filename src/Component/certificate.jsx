@@ -4,7 +4,7 @@ import Certificates from "./Doc/Certificate.json";
 const Certificate = () => {
   return (
     <>
-      <div className="container certificate my-3" id="certificate">
+      <div className="container certificate my-3" id="certificates">
         <h4>Certificates/Awards</h4>
         <div className="row d-flex justify-content-center align-content-center">
           {Certificates.map((certi) => (
