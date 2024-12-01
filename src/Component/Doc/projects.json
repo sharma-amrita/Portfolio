@@ -1,7 +1,7 @@
 [
   {
     "key": 1,
-    "title":"Music-Recommendation_chatbot",
+    "title":"Music Recommendation Chatbot",
     "imageSrc": "/Assets/project/chatbot.jpg",
     "description": "This is a project made with complete py,html,js,css.",
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
   },
   {
     "key": 2,
-    "title": "Java_Terminal_From_Scratch",
+    "title": "Java_ Terminal _ From _ Scratch",
     "imageSrc": "/Assets/project/javaterminal.jpg",
     "description": "This is a project made with complete Java",
     "demo": "https://www.example.com",
@@ -17,9 +17,9 @@
   },
   {
     "key": 3,
-    "title": "Darshan-Trade-International ",
+    "title": "Darshan  Trade  International pvt ltd",
     "imageSrc": "/Assets/project/website.png" ,
-    "description": "This is a project made with complete React js.",
+    "description": "This is a project made with complete ",
     "demo": "https://drashantradeinternational.netlify.app/",
     "source": "https://github.com/sharma-amrita/Darshan-Trade-International"
   }

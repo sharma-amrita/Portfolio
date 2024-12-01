@@ -8,8 +8,10 @@ import { IoMail } from "react-icons/io5";
 const Contact = () => {
   return (
     <>
-    <div className="container contact" id='contact'>
-      <h4>CONTACT ME</h4>
+    <div className="container contact" id='contact'
+    // data-aos="zoom-out" data-aos-duration = "1000" 
+    >
+     
       <div className="contact-icon"
        
       >

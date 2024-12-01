@@ -14,7 +14,7 @@ function Internship() {
 
   return (
     <div className="App" id='internship'>
-      <h4 className='heading'>INTERNSHIP EXPERIENCE</h4>
+      <h4 className='heading0'>INTERNSHIP EXPERIENCE</h4>
       <div className='container1'>
         {experiences.map((experience) => (
           <div key={experience.id} className="experience-item" 

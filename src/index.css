@@ -115,25 +115,32 @@ a{
 /*Intership Section*/
 
 
- .heading{
-  margin-top: 20px;
-  height:49px;
-  width:300px;
+ .heading0{
+  margin: 20px 20px;
+  height:55px;
+  width:310px;
   /* border:1px solid green; */
-  text-align: center;
-  margin-left: 120px;
+  text-align: left;
+ padding-left: 20px;
+ padding-top: 10px;
 }
-.heading:hover{
+.heading0:hover{
   border-bottom: 3px solid rgb(213, 230, 19);
 }
-
+.App{
+  /* background-color:red; */
+  width: 1320px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
 
 .container1{
   /* background: red; */
   padding-top: 10px;
   height: 600px;
   width: 800px;
-  margin-left:400px;
+  margin-left:300px;
   /* border: 1px solid green; */
 }
 .experience-item{
@@ -151,9 +158,9 @@ a{
 
 h4.topic{
   align-items: center;
-  margin-top: 30px;
+  margin-top: 35px;
   margin-left: 20px;
-  height:45px;
+  height:40px;
   width:80px;
   /* border:1px solid green; */
   text-align: center;
@@ -163,7 +170,10 @@ h4.topic:hover{
   border-bottom: 3px solid rgb(213, 230, 19);
   
 }
-
+.skills {
+  /* background: red; */
+  padding: 10px;
+}
 
 .skills .items{
   width: 800px;
@@ -172,7 +182,7 @@ h4.topic:hover{
   align-items: center;
   flex-wrap: wrap;
   margin-left: 22%;
-  /* background: yellow; */
+  /* background: red; */
 }
 
 .skills .items .item {
@@ -191,8 +201,43 @@ box-shadow: var(--box-shadow);
 
 
   /*PROJECT SECTION*/
+  .projects{
+    /* background: red; */
+    height: 695px;
+  }
 
+
+ .headingSec{
+  /* border: 1px solid green; */
+  width:130px;
+  height: 90px;
+  text-align: center;
+  padding-top: 50px;
+}
+h4.headingSec:hover{
+  border-bottom: 3px solid rgb(213, 230, 19);
   
+}
+
+
+/*CERTIFICATE/AWARDS SECTION*/
+.certificate{
+  /* background-color:red; */
+  height: 698px;
+}
+.headingCert{
+  padding: 20px;
+  /* border: 1px solid green; */
+  height: 60px ;
+  width: 242px;
+  text-align: center;
+}
+
+.headingCert:hover{
+  border-bottom: 3px solid rgb(213, 230, 19);
+}
+
+
 
 
   /*CONTACT SECTION*/

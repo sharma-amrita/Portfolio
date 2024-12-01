@@ -5,17 +5,25 @@ const Projects = () => {
   return (
     <>
       <div className="container projects my-3" id="projects">
-        <h4>PROJECT</h4>
-        <div className="row d-flex justify-content-center align-content-center">
+        <h4 className="headingSec">PROJECT</h4>
+        <div className="row d-flex justify-content-center align-content-center"
+         
+        >
           {projects.map((Doc) => (
             <>
               <div
                 key={projects.id}
-                className="my-3 col-sm-6 col-md-4 col-lg-3 mx-3"
+                className="my-3 col-sm-6 col-md-4 col-lg-3 mx-3" style={{paddingTop:'60px'}}
+                  data-aos="zoom-in"
+                  data-aos-anchor-placement="top-center"
+                  data-aos-duration = "1000"  
+
               >
                 <div
                   className="card bg-dark text-light"
-                  style={{ width: "18rem", border:'2px solid yellow', boxShadow:'5px 5px 10px 6px rgba(101,175,10,0.5)'}}
+                  style={{ width: "18rem", border:'2px solid yellow', borderRadius:'15px', boxShadow:'5px 5px 10px 6px rgba(101,175,10,0.5)' , paddingTop:'8px'}}
+               
+
                 >
                   <div className="img d-flex justify-content-center align-content-center p-3">
                   <img src={Doc.imageSrc} className="card-img-top" alt=".." 
